@@ -11,7 +11,7 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                bat 'docker build -t tut5 .'
+                bat 'docker build -t Tehseen Panjari .'
             }
         }
 
