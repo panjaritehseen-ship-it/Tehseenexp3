@@ -18,7 +18,7 @@ pipeline {
         stage('Run Application') {
             steps {
                 echo 'Running application...'
-                bat 'python app.py'
+                bat '"C:\\Users\\student\\AppData\\Local\\Programs\\Python\\Python311\\python.exe" app.py'
             }
         }
     }
