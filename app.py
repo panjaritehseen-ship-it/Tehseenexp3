@@ -1,3 +1,10 @@
-print("Hello from jenkins!")
-print("Tehseen Panjari exp3 tutorial 4!")
-print("Python application is running successfully...")
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    return "Hello! Tehseen Touisf Panjari."
+
+if __name__ == "__main__":
+    app.run(host="0.0.0.0", port=5000)
