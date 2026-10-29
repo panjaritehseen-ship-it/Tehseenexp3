@@ -1,7 +1,0 @@
-.git
-.gitignore
-Jenkinsfile
-.dockerignore
-README.md
-__pycache__
-*.pyc
